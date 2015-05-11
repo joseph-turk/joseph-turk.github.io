@@ -4,7 +4,8 @@
 
 .welcome,
 .about,
-.contact {
+.contact,
+.portfolio {
   padding-top: 3rem;
   padding-bottom: 3rem;
   @media screen and (min-width: 500px) {
@@ -15,7 +16,8 @@
 }
 
 .welcome,
-.about {
+.about,
+.portfolio {
   min-height: 60vh;
 }
 
