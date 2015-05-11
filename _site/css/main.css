@@ -7106,14 +7106,16 @@ h2, h3, h4, h5, h6 {
 
 .welcome,
 .about,
-.contact {
+.contact,
+.portfolio {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%; }
   @media screen and (min-width: 500px) {
     .welcome,
     .about,
-    .contact {
+    .contact,
+    .portfolio {
       padding-top: 4rem;
       padding-bottom: 4rem; } }
 
@@ -7181,6 +7183,15 @@ h2, h3, h4, h5, h6 {
 
 .other {
   background: #FFFFE9; }
+
+.portfolio {
+  min-height: 70vh;
+  background: #FFFFE9; }
+  .portfolio img {
+    display: block;
+    margin: auto; }
+  .portfolio .row {
+    margin-bottom: 2rem; }
 
 footer {
   background: #FFA066;
