@@ -9,3 +9,7 @@ paginate_path: "blog/page:num/"
 markdown: rdiscount
 permalink: pretty
 highlighter: pygments
+
+collections:
+  portfolio:
+    output: true
