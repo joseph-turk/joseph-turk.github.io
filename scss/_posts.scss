@@ -1,0 +1,22 @@
+article {
+  min-height: 100vh;
+  background: $white;
+  padding: 3rem 0;
+  @media screen and (min-width: 500px) {
+    padding: 5rem 0;
+  }
+  .columns {
+    margin-bottom: 2rem;
+  }
+  h6 {
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+    margin-top: -1.2em;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted $black;
+  }
+}
+
+.dateblock {
+  color: $dark1;
+}

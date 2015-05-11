@@ -1,0 +1,78 @@
+//////////////////
+// All Sections //
+//////////////////
+
+.welcome,
+.about,
+.contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media screen and (min-width: 500px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  width: 100%;
+}
+
+.welcome,
+.about {
+  min-height: 60vh;
+}
+
+
+/////////////
+// Welcome //
+/////////////
+
+.welcome {
+  background: $light1;
+  text-align: center;
+  padding-top: 3rem;
+  @media screen and (min-width: 641px) {
+    padding-top: 5rem;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+
+///////////
+// About //
+///////////
+
+.about {
+  background: $white;
+}
+
+.headshot {
+  float: left;
+  margin: 0 1em;
+  @media screen and (max-width: 640px) {
+    max-width: 40%;
+  }
+  @media screen and (min-width: 641px) and (max-width: 1024px) {
+    max-width: 30%;
+  }
+  @media screen and (min-width: 1025px) {
+    max-width: 25%;
+  }
+}
+
+
+/////////////////
+// Latest Post //
+/////////////////
+
+.latest_post {
+  background: $light2;
+}
+
+
+/////////////
+// Contact //
+/////////////
+
+.contact {
+  background: $light2;
+}

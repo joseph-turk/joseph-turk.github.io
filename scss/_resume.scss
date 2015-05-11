@@ -1,0 +1,31 @@
+.work-experience,
+.skills,
+.education,
+.other {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @media screen and (min-width: 500px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.back {
+  background: $dark1;
+}
+
+.work-experience {
+  background: $white;
+}
+
+.skills {
+  background: $light2;
+}
+
+.education {
+  background: $light1;
+}
+
+.other {
+  background: $white;
+}
