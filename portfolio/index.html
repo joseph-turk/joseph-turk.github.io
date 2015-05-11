@@ -12,7 +12,7 @@ layout: default
         {% for page in site.portfolio %}
         <li>
           <a href="{{ page.url }}">
-            <img src="{{ page.screenshot }}">
+            <img src="{{ page.screenshot }}" alt="Screenshot of {{ page.title }}">
             {{ page.title }}
           </a>
         </li>
