@@ -7120,8 +7120,7 @@ h2, h3, h4, h5, h6 {
       padding-bottom: 4rem; } }
 
 .welcome,
-.about,
-.portfolio {
+.about {
   min-height: 60vh; }
 
 .welcome {
@@ -7186,7 +7185,13 @@ h2, h3, h4, h5, h6 {
   background: #FFFFE9; }
 
 .portfolio {
+  min-height: 70vh;
   background: #FFFFE9; }
+  .portfolio img {
+    display: block;
+    margin: auto; }
+  .portfolio .row {
+    margin-bottom: 2rem; }
 
 footer {
   background: #FFA066;

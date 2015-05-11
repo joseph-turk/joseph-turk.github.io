@@ -1,16 +1,27 @@
 {% include meta.html %}
 {% include header.html %}
 
-<div class="row">
-  <div class="small-12 columns">
-    <h2>{{ page.title }}</h2>
+<section class="portfolio">
+  <div class="row">
+    <div class="small-12 columns">
+      <img src="{{ page.mockup }}" alt="{{ page.title }} mockup">
+    </div>
   </div>
-</div>
 
-<div class="row">
-  <div class="small-12 columns">
-    {{ content }}
+  <div class="row">
+    <div class="small-12 columns">
+      <h2>{{ page.title }}</h2>
+
+      <a href="{{ page.address }}">go to site</a>
+    </div>
   </div>
-</div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
 
 {% include footer.html %}

@@ -3,20 +3,21 @@ title: Portfolio
 layout: default
 ---
 
-
 <section class="portfolio">
   <div class="row">
-    <h2>Recent Work</h2>
+    <div class="small-12 columns">
+      <h2>Recent Work</h2>
 
-    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-      {% for page in site.portfolio %}
-      <li>
-        <a href="{{ page.url }}">
-          <img src="http://placehold.it/800x500&text=[img]"><br>
-          {{ page.title }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+      <ul class="small-block-grid-1 medium-block-grid-2">
+        {% for page in site.portfolio %}
+        <li>
+          <a href="{{ page.url }}">
+            <img src="{{ page.screenshot }}">
+            {{ page.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </section>
