@@ -3,10 +3,12 @@ description: Joseph Turk is a web developer, musician, and project manager who l
 
 url: "http://localhost:4000"
 
+gems: [jekyll-paginate]
+
 paginate: 5
 paginate_path: "blog/page:num/"
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highlighter: pygments
 
