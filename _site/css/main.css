@@ -7106,14 +7106,16 @@ h2, h3, h4, h5, h6 {
 
 .welcome,
 .projects,
-.contact {
+.contact,
+.blog {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%; }
   @media screen and (min-width: 500px) {
     .welcome,
     .projects,
-    .contact {
+    .contact,
+    .blog {
       padding-top: 4rem;
       padding-bottom: 4rem; } }
 
@@ -7131,7 +7133,8 @@ h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 2rem; }
 
-.projects {
+.projects,
+.blog {
   background: #FFFFE9; }
 
 .headshot {
@@ -7152,6 +7155,25 @@ h2, h3, h4, h5, h6 {
 
 .contact {
   background: #FFCCCC; }
+
+article {
+  min-height: 100vh;
+  background: #FFFFE9;
+  padding: 3rem 0; }
+  @media screen and (min-width: 500px) {
+    article {
+      padding: 5rem 0; } }
+  article .columns {
+    margin-bottom: 2rem; }
+  article h6 {
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+    margin-top: -1.2em;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #151708; }
+
+.dateblock {
+  color: #FFA066; }
 
 .work-experience,
 .skills,
