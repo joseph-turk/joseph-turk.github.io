@@ -7105,35 +7105,33 @@ h2, h3, h4, h5, h6 {
   opacity: 0.9; }
 
 .welcome,
-.about,
-.contact,
-.portfolio {
+.projects,
+.contact {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%; }
   @media screen and (min-width: 500px) {
     .welcome,
-    .about,
-    .contact,
-    .portfolio {
+    .projects,
+    .contact {
       padding-top: 4rem;
       padding-bottom: 4rem; } }
 
 .welcome,
-.about {
+.projects {
   min-height: 60vh; }
 
 .welcome {
   background: #C9D787;
-  text-align: center;
   padding-top: 3rem; }
   @media screen and (min-width: 641px) {
     .welcome {
       padding-top: 5rem; } }
   .welcome h2 {
+    text-align: center;
     margin-bottom: 2rem; }
 
-.about {
+.projects {
   background: #FFFFE9; }
 
 .headshot {
