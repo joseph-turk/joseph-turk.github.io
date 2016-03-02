@@ -14,7 +14,7 @@
   }
 }
 
-.welcome,
+//.welcome,
 .projects {
   min-height: 60vh;
 }
@@ -46,16 +46,16 @@
 }
 
 .headshot {
-  float: left;
-  margin: 0 1em;
+  display: block;
+  margin: 0 auto 1rem;
   @media screen and (max-width: 640px) {
     max-width: 40%;
   }
-  @media screen and (min-width: 641px) and (max-width: 1024px) {
-    max-width: 30%;
-  }
-  @media screen and (min-width: 1025px) {
-    max-width: 25%;
+  // @media screen and (min-width: 641px) and (max-width: 1024px) {
+  //   max-width: 30%;
+  // }
+  @media screen and (min-width: 769px) {
+    max-width: 60%;
   }
 }
 

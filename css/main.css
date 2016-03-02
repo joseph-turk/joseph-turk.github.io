@@ -7117,7 +7117,6 @@ h2, h3, h4, h5, h6 {
       padding-top: 4rem;
       padding-bottom: 4rem; } }
 
-.welcome,
 .projects {
   min-height: 60vh; }
 
@@ -7135,23 +7134,53 @@ h2, h3, h4, h5, h6 {
   background: #FFFFE9; }
 
 .headshot {
-  float: left;
-  margin: 0 1em; }
+  display: block;
+  margin: 0 auto 1rem; }
   @media screen and (max-width: 640px) {
     .headshot {
       max-width: 40%; } }
-  @media screen and (min-width: 641px) and (max-width: 1024px) {
+  @media screen and (min-width: 769px) {
     .headshot {
-      max-width: 30%; } }
-  @media screen and (min-width: 1025px) {
-    .headshot {
-      max-width: 25%; } }
+      max-width: 60%; } }
 
 .latest_post {
   background: #FFCCCC; }
 
 .contact {
   background: #FFCCCC; }
+
+.blog {
+  background: #FFFFE9;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+  @media screen and (min-width: 500px) {
+    .blog {
+      padding-bottom: 6rem; } }
+
+.pagination {
+  position: absolute;
+  bottom: 1rem; }
+
+article {
+  min-height: 100vh;
+  background: #FFFFE9;
+  padding: 3rem 0; }
+  @media screen and (min-width: 500px) {
+    article {
+      padding: 5rem 0; } }
+
+.main-content {
+  margin-bottom: 2rem; }
+
+.titleblock {
+  border-bottom: 1px dotted #151708;
+  margin-bottom: 3rem; }
+
+.dateblock {
+  color: #FFA066; }
 
 .work-experience,
 .skills,
