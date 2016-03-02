@@ -7106,20 +7106,17 @@ h2, h3, h4, h5, h6 {
 
 .welcome,
 .projects,
-.contact,
-.blog {
+.contact {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 100%; }
   @media screen and (min-width: 500px) {
     .welcome,
     .projects,
-    .contact,
-    .blog {
+    .contact {
       padding-top: 4rem;
       padding-bottom: 4rem; } }
 
-.welcome,
 .projects {
   min-height: 60vh; }
 
@@ -7133,28 +7130,39 @@ h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 2rem; }
 
-.projects,
-.blog {
+.projects {
   background: #FFFFE9; }
 
 .headshot {
-  float: left;
-  margin: 0 1em; }
+  display: block;
+  margin: 0 auto 1rem; }
   @media screen and (max-width: 640px) {
     .headshot {
       max-width: 40%; } }
-  @media screen and (min-width: 641px) and (max-width: 1024px) {
+  @media screen and (min-width: 769px) {
     .headshot {
-      max-width: 30%; } }
-  @media screen and (min-width: 1025px) {
-    .headshot {
-      max-width: 25%; } }
+      max-width: 60%; } }
 
 .latest_post {
   background: #FFCCCC; }
 
 .contact {
   background: #FFCCCC; }
+
+.blog {
+  background: #FFFFE9;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem; }
+  @media screen and (min-width: 500px) {
+    .blog {
+      padding-bottom: 6rem; } }
+
+.pagination {
+  position: absolute;
+  bottom: 1rem; }
 
 article {
   min-height: 100vh;
