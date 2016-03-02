@@ -7171,12 +7171,6 @@ article {
   @media screen and (min-width: 500px) {
     article {
       padding: 5rem 0; } }
-  article h6 {
-    font-size: 1.5em;
-    margin-bottom: 3rem;
-    margin-top: -1.2em;
-    padding-bottom: 1rem;
-    border-bottom: 1px dotted #151708; }
 
 .main-content {
   margin-bottom: 2rem; }
