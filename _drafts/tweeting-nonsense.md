@@ -1,9 +1,8 @@
 ---
 title: My Experience Trying Sling TV
 layout: post
+tagline: more compelling in concept than in execution
 ---
-
-###### more compelling in concept than in execution
 
 ## Setting the stage
 

@@ -5,16 +5,15 @@ article {
   @media screen and (min-width: 500px) {
     padding: 5rem 0;
   }
-  .columns {
-    margin-bottom: 2rem;
-  }
-  h6 {
-    font-size: 1.5em;
-    margin-bottom: 3rem;
-    margin-top: -1.2em;
-    padding-bottom: 1rem;
-    border-bottom: 1px dotted $black;
-  }
+}
+
+.main-content {
+  margin-bottom: 2rem;
+}
+
+.titleblock {
+  border-bottom: 1px dotted $black;
+  margin-bottom: 3rem;
 }
 
 .dateblock {

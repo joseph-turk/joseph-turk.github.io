@@ -1,0 +1,16 @@
+.blog {
+  background: $white;
+  min-height: 70vh;
+  width: 100%;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  @media screen and (min-width: 500px) {
+    padding-bottom: 6rem;
+  }
+}
+
+.pagination {
+  position: absolute;
+  bottom: 1rem;
+}
