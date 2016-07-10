@@ -7,6 +7,8 @@ I have a hard time finishing side projects. I start something, try learning a ne
 
 Deadlines tend to be great motivators for me. I work on writing and editing proposals as part of my day job, and I tend to become more and more productive as we get closer to the submission deadline. So starting in March, I’m going to make a point of completing one side project every month for the rest of the year. I’m going to go from project initiation to Minimum Viable Product (MVP) in a month or less.
 
+**Update 10 July 2016:** I'm no longer trying for a full project every month. See [this post](../../../07/10/building-commonplace) for details.
+
 Here’s my basic plan.
 
 ## Week 1: Planning
@@ -16,7 +18,7 @@ Here’s my basic plan.
 - Decide on a technology stack.
 
 ## Week 2-3: Development
-- Build the damn thing. (And don't move on to a new project if I hit a roadblock.)
+- Build it. (And don't move on to a new project if I hit a roadblock.)
 - Write automated tests as I go.
 
 ## Week 4: Testing and Deployment
