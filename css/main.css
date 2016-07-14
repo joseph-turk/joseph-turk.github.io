@@ -7095,15 +7095,6 @@ body,
 h2, h3, h4, h5, h6 {
   color: #151708; }
 
-.contain-to-grid,
-.top-bar,
-.top-bar-section ul li,
-.top-bar-section ul li > a,
-.top-bar-section li:not(.has-form) a:not(.button),
-.top-bar .name h1 a,
-.top-bar .toggle-topbar.menu-icon a {
-  opacity: 0.9; }
-
 .welcome,
 .projects,
 .contact {
@@ -7168,6 +7159,11 @@ article {
   min-height: 100vh;
   background: #FFFFE9;
   padding: 3rem 0; }
+  article img {
+    display: block;
+    padding-bottom: 0.3em; }
+  article li:not(:first-child) {
+    padding-top: 0.3em; }
   @media screen and (min-width: 500px) {
     article {
       padding: 5rem 0; } }
