@@ -9,6 +9,10 @@ This guide was originally written to help non-technical members of the business 
 
 This guide will not help you if you're looking to use ImageMagick to integrate image processing capabilities into an application you are developing.
 
+You can find the other parts of this guide here:
+
+- [ImageMagick Guide Part 2&#58; Extracting Images from PDFs](../../../07/21/extracting-images-from-pdfs)
+
 ## Downloading and Installing ImageMagick
 1. Go to the [ImageMagick downloads page](http://www.imagemagick.org/script/binary-releases.php#windows) and click the appropriate download link for your operating system. Assuming you're running a 64-bit version of Windows, the first two download links should both work for you.
 ![ImageMagick download page](../../../../img/blog/processing-images-with-imagemagick/download-page.png "ImageMagick download page")

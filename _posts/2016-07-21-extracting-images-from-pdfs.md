@@ -3,7 +3,7 @@ title: ImageMagick Guide Part 2&#58; Extracting Images from PDFs
 layout: post
 ---
 
-ImageMagick is a powerful tool for processing images. This post is the part of a series that shows you how to use ImageMagick from the command line.
+With ImageMagick and Ghostscript, you can extract each page from a PDF document as a separate image. This post is the part of a series that shows you how to use ImageMagick from the command line.
 
 This guide was originally written to help non-technical members of the business development team at my company work with ImageMagick from the command line. The instructions in this guide are focused on installing and ImageMagick in a Windows environment and running it from the command line to process local images. However, these instructions can be easily adapted for running from a terminal to process local images in Linux or macOS as well.
 
@@ -11,7 +11,7 @@ This guide will not help you if you're looking to use ImageMagick to integrate i
 
 You can find the other parts of this guide here:
 
-- [ImageMagick Guide Part 1 - Setting Up ImageMagick](../../../07/13/setting-up-imagemagick)
+- [ImageMagick Guide Part 1&#58; Setting Up ImageMagick](../../../07/14/setting-up-imagemagick)
 
 ## Extracting Images from a PDF
 For this section, you'll need a PDF document to work with. If you want to follow along exactly with the document that I'm using, you can download the zip directory with sample files from Adobe at [this website](http://partners.adobe.com/public/developer/xml/topic_samples2.html).
