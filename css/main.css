@@ -7170,6 +7170,9 @@ article {
 
 .main-content {
   margin-bottom: 2rem; }
+  .main-content ul {
+    margin-left: 2rem;
+    margin-top: -1em; }
 
 .titleblock {
   border-bottom: 1px dotted #151708;
