@@ -48,6 +48,7 @@
 .headshot {
   display: block;
   margin: 0 auto 1rem;
+  border-radius: 100%;
   @media screen and (max-width: 640px) {
     max-width: 40%;
   }
