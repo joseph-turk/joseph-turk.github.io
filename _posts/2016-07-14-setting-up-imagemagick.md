@@ -5,7 +5,7 @@ layout: post
 
 ImageMagick is a powerful tool for processing images. This post is the first in a series that shows you how to use ImageMagick from the command line.
 
-This guide was originally written to help non-technical members of the business development team at my company work with ImageMagick from the command line. The instructions in this guide are focused on installing and ImageMagick in a Windows environment and running it from the command line to process local images. However, these instructions can be easily adapted for running from a terminal to process local images in Linux or macOS as well.
+This guide was originally written to help non-technical members of the business development team at my company work with ImageMagick from the command line. The instructions in this guide are focused on installing ImageMagick in a Windows environment and running it from the command line to process local images. However, these instructions can be easily adapted for running from a terminal to process local images in Linux or macOS as well.
 
 This guide will not help you if you're looking to use ImageMagick to integrate image processing capabilities into an application you are developing.
 
