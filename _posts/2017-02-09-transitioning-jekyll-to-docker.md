@@ -3,7 +3,9 @@ title: Transitioning Jekyll to Docker
 layout: post
 ---
 
-For the past couple years, I've been maintaining this Jekyll site with the full development stack (small though it is) running on my local machine. Recently, I decided to fully embrace containerization with Docker. Here are my experiences moving this site to a Docker environment.
+For the past couple years, I've been maintaining this Jekyll site with the full development stack (small though it is) running natively on my local machine. Recently, I decided to fully embrace containerization with Docker. Here are my experiences moving this site to a Docker environment.
+
+[Jump to the instructions](#instructions)
 
 ## Previous Experiences Setting Up Jekyll
 
@@ -16,9 +18,11 @@ My issues have perhaps been compounded by the fact that I've at various times be
 There are two main reasons why I decided now was the right time to start using Docker for my Jekyll development environment:
 
 1. I'm currently working on a proposal for my day job that features containerization with Docker as a key component of our solution.
-2. I just bought a new laptop and am trying to be more thoughtful about how I set up my environment.
+2. I just bought a new laptop and am trying to be more thoughtful about how I set up my local environments.
 
-## How to Move an Existing Jekyll Site to Docker
+## Instructions
+
+Follow these steps to move your existing Jekyll site to a Docker-based install.
 
 1. Install Docker, if you haven't already.
 2. Clone your existing Jeykll site repo, if you do not already have a local copy of it.
@@ -27,7 +31,7 @@ There are two main reasons why I decided now was the right time to start using D
    ```
    jekyll:
        image: jekyll/jekyll:pages
-       command: jekyll serve --watch --incremental
+       command: jekyll serve --incremental
        ports:
            - 4000:4000
        volumes:
