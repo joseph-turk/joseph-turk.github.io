@@ -1,9 +1,9 @@
 name: Joseph Turk
-description: Joseph Turk is a web developer, musician, and project manager who lives in Washington, DC.
+description: Joseph Turk is a web developer, musician, and project manager who lives in Madison, WI.
 
 url: "http://localhost:4000"
 
-exclude: [scss, css/main.css.map]
+exclude: [scss]
 
 gems: [jekyll-paginate]
 
@@ -17,3 +17,7 @@ highlighter: rouge
 collections:
   portfolio:
     output: true
+
+sass:
+  sass_dir: _scss
+  style: :compressed

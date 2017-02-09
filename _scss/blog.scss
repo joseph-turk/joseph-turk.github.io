@@ -14,3 +14,12 @@
   position: absolute;
   bottom: 1rem;
 }
+
+pre {
+  background: #f8f8f8;
+  border: 1px solid #dfdfdf;
+
+  code {
+    border: none;
+  }
+}
