@@ -3,7 +3,7 @@ title: Building Commonplace
 layout: post
 ---
 
-The first project in my project per month series ended up taking... a little over three months. Here's what I learned during the process of building [Commonplace](http://cmnplc.herokuapp.com).
+The first project in my attempt to build a project each month for the rest of 2016 took... a little over three months. Here's what I learned during the process of building [Commonplace](http://cmnplc.herokuapp.com).
 
 ## The Importance of Tooling
 I've recently been bouncing back and forth between operating systems for development. For the past couple years, I've mainly developed on a 2011 iMac. I use Windows for my day job, though, so I decided earlier this year to try switching over to Windows for development as well. My goal for this project was to go all-in on using Microsoft's developer tools.
@@ -27,6 +27,3 @@ The most important lesson I learned from this project had nothing to do with the
 I took on several demanding projects at my day job during the course of developing Commonplace. Naturally, I had to prioritize the work that I actually get paid for, and so my commitment to Commonplace suffered.
 
 Commonplace was a personal project, so having the timeline slip was no big deal. If it had been a client project, though, I would have been in trouble. Underestimating how long I would need to build the app would have led to long nights and unnecessary stress.
-
-## What's Next?
-Given how long Commonplace took, I'm abandoning my project-per-month goal. Instead, I'm just going to focus on always having a project to work on, regardless of how long I think it'll take me to finish. I also plan on posting more so I can put my learning moments down in writing.
